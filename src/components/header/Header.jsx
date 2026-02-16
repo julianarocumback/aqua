@@ -3,26 +3,25 @@ export default function Header() {
     const aqua = document.querySelector('#aqua')
     const nav = document.querySelectorAll('.item')
 
-    const menu = () => {
-        window.addEventListener('scroll', () => {
-            if(window.scrollY != 0) {
-                header.style.backgroundColor = 'white'
-                aqua.style.color = 'black'
-                nav.forEach((item)=>{
-                    item.style.color = 'black'
-                })
+    window.addEventListener('scroll', () => {
+        if(window.scrollY != 0) {
+            header.style.backgroundColor = 'white'
+            aqua.style.color = 'black'
+            nav.forEach((item)=>{
+                item.style.color = 'black'
+            })
 
-            } else {
-                header.style.backgroundColor = 'transparent'
-                aqua.style.color = 'white'
-                nav.forEach((item)=>{
-                    item.style.color = 'white'
-                })
-            }
-        })
-    }
+        } else {
+            header.style.backgroundColor = 'transparent'
+            aqua.style.color = 'white'
+            nav.forEach((item)=>{
+                item.style.color = 'white'
+            })
+        }
+    })
 
-    menu()
+
+    
     return (
         <header id="header" className="flex w-full h-20 justify-between px-20 items-center fixed top-0 left-0 z-50 transition-all duration-300">
 
