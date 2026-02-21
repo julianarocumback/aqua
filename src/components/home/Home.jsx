@@ -2,12 +2,12 @@ import Background from './background.png'
 
 export default function Home() {
     return (
-        <section className="h-screen w-full lg:h-[600px] border-red-500 border-2">
-            <div className='flex flex-col h-full w-full relative border-2 border-red-500'>
+        <section className="h-screen w-full lg:h-[600px]">
+            <div className='flex flex-col h-full w-full relative'>
                 <div className='h-full w-full absolute'>
                     <img src={Background} alt="" className='h-full w-full object-cover' />
                 </div>
-                <div className='bg-black/20 h-full w-full absolute lg:h-3/4'></div>
+                <div className='bg-black/20 h-full w-full absolute'></div>
                 <div className='flex flex-col justify-center items-center self-center relative h-full w-3/5 lg:w-2/5 gap-4 text-white '>
                     <h1 className='relative text-4xl lg:text-7xl font-bold'>Bem-vindo!</h1>   
                     <h2 className=' text-2xl lg:text-3xl text-center'>Descubra um refúgio perfeito onde conforto, natureza e experiências memoráveis se encontram.</h2>
