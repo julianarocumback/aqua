@@ -31,7 +31,7 @@ export default function Header() {
 
             {/* Desktop */}
             <nav >
-                <div className="lg:hidden"><i className="fa-solid fa-bars"></i></div>
+                <div className="lg:hidden text-2xl"><i className="fa-solid fa-bars"></i></div>
                 <div className="hidden lg:block">
                     <div className="flex gap-4 items-center  text-1xl">
                         <a className={`${logoClass}`} href="">Home</a>
