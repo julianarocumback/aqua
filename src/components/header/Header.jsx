@@ -19,7 +19,7 @@ export default function Header() {
     const logoClass = scrolled ? "text-black" : "text-white";
     
     return (
-        <header className={`${headerClass} flex w-full h-20 justify-between px-20 items-center fixed top-0 left-0 z-50 transition-all duration-300`}>
+        <header className={`${headerClass} flex w-full h-20 justify-between px-10 md:px-20 items-center fixed top-0 left-0 z-50 transition-all duration-300`}>
 
             {/* Mobile */}
             <div className="gap-2 flex items-center">
