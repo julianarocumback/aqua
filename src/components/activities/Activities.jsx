@@ -1,6 +1,6 @@
 export default function Activities() {
     return (
-        <section id="activities" className="h-full lg:mt-[-75px] lg:scroll-mt-[75px] pt-25 bg-amber-50 z-1 relative border-2 border-red-500">
+        <section id="activities" className="h-full scroll-mt-[20px] lg:mt-[-75px] lg:scroll-mt-[75px] pt-25 bg-amber-50 z-1 relative border-2 border-red-500">
             <span>EXPERIÊNCIAS</span>
             <h2>Nossas Atividades</h2>
 
