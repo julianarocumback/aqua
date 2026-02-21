@@ -1,6 +1,6 @@
 export default function Activities() {
     return (
-        <section id="activities" className="h-full mt-[-150px] pt-25 bg-amber-50 z-1 relative border-2 border-red-500">
+        <section id="activities" className="h-full lg:mt-[-75px] lg:scroll-mt-[75px] pt-25 bg-amber-50 z-1 relative border-2 border-red-500">
             <span>EXPERIÊNCIAS</span>
             <h2>Nossas Atividades</h2>
 
@@ -29,9 +29,80 @@ export default function Activities() {
                     <span>Fotografia subaquática profissional</span>
                 </div>
 
+                <div>
+                    <h3>Grupos de mergulho</h3>
+                    <h1>Explore um mundo vibrante sob as ondas. Nossas expedições de mergulho levam você aos recifes mais preservados da região, repletos de vida marinha colorida, tartarugas e corais exuberantes. Um santuário subaquático esperando por você.</h1>
+                    <span>Batismo para iniciantes</span>
+                    <span>Certificação PADI disponível</span>
+                    <span>Fotografia subaquática profissional</span>
+                </div>
+
+                <div>
+                    <h3>Grupos de mergulho</h3>
+                    <h1>Explore um mundo vibrante sob as ondas. Nossas expedições de mergulho levam você aos recifes mais preservados da região, repletos de vida marinha colorida, tartarugas e corais exuberantes. Um santuário subaquático esperando por você.</h1>
+                    <span>Batismo para iniciantes</span>
+                    <span>Certificação PADI disponível</span>
+                    <span>Fotografia subaquática profissional</span>
+                </div>
+
+                <div>
+                    <h3>Grupos de mergulho</h3>
+                    <h1>Explore um mundo vibrante sob as ondas. Nossas expedições de mergulho levam você aos recifes mais preservados da região, repletos de vida marinha colorida, tartarugas e corais exuberantes. Um santuário subaquático esperando por você.</h1>
+                    <span>Batismo para iniciantes</span>
+                    <span>Certificação PADI disponível</span>
+                    <span>Fotografia subaquática profissional</span>
+                </div>
+
+                <div>
+                    <h3>Grupos de mergulho</h3>
+                    <h1>Explore um mundo vibrante sob as ondas. Nossas expedições de mergulho levam você aos recifes mais preservados da região, repletos de vida marinha colorida, tartarugas e corais exuberantes. Um santuário subaquático esperando por você.</h1>
+                    <span>Batismo para iniciantes</span>
+                    <span>Certificação PADI disponível</span>
+                    <span>Fotografia subaquática profissional</span>
+                </div>
+
+                <div>
+                    <h3>Grupos de mergulho</h3>
+                    <h1>Explore um mundo vibrante sob as ondas. Nossas expedições de mergulho levam você aos recifes mais preservados da região, repletos de vida marinha colorida, tartarugas e corais exuberantes. Um santuário subaquático esperando por você.</h1>
+                    <span>Batismo para iniciantes</span>
+                    <span>Certificação PADI disponível</span>
+                    <span>Fotografia subaquática profissional</span>
+                </div>
 
 
+                <div>
+                    <h3>Grupos de mergulho</h3>
+                    <h1>Explore um mundo vibrante sob as ondas. Nossas expedições de mergulho levam você aos recifes mais preservados da região, repletos de vida marinha colorida, tartarugas e corais exuberantes. Um santuário subaquático esperando por você.</h1>
+                    <span>Batismo para iniciantes</span>
+                    <span>Certificação PADI disponível</span>
+                    <span>Fotografia subaquática profissional</span>
+                </div>
 
+
+                <div>
+                    <h3>Grupos de mergulho</h3>
+                    <h1>Explore um mundo vibrante sob as ondas. Nossas expedições de mergulho levam você aos recifes mais preservados da região, repletos de vida marinha colorida, tartarugas e corais exuberantes. Um santuário subaquático esperando por você.</h1>
+                    <span>Batismo para iniciantes</span>
+                    <span>Certificação PADI disponível</span>
+                    <span>Fotografia subaquática profissional</span>
+                </div>
+
+
+                <div>
+                    <h3>Grupos de mergulho</h3>
+                    <h1>Explore um mundo vibrante sob as ondas. Nossas expedições de mergulho levam você aos recifes mais preservados da região, repletos de vida marinha colorida, tartarugas e corais exuberantes. Um santuário subaquático esperando por você.</h1>
+                    <span>Batismo para iniciantes</span>
+                    <span>Certificação PADI disponível</span>
+                    <span>Fotografia subaquática profissional</span>
+                </div>
+
+                <div>
+                    <h3>Grupos de mergulho</h3>
+                    <h1>Explore um mundo vibrante sob as ondas. Nossas expedições de mergulho levam você aos recifes mais preservados da região, repletos de vida marinha colorida, tartarugas e corais exuberantes. Um santuário subaquático esperando por você.</h1>
+                    <span>Batismo para iniciantes</span>
+                    <span>Certificação PADI disponível</span>
+                    <span>Fotografia subaquática profissional</span>
+                </div>
 
 
 
