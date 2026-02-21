@@ -1,6 +1,6 @@
 export default function Activities() {
     return (
-        <section className="h-[1000px] mt-[-50px] bg-amber-50 z-10">
+        <section className="h-full bg-amber-50 z-10  ">
             <span>EXPERIÊNCIAS</span>
             <h2>Nossas Atividades</h2>
 
