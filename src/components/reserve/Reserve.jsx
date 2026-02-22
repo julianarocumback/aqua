@@ -3,16 +3,16 @@ import ImagemReserva from './imagem-reserva.png'
 export default function Reserve() {
     return (
         <section id="reserve" className="scroll-mt-[75px] w-full h-full py-25 px-4 lg:mx-auto lg:w-3/5">
-            <div className='flex flex-col border-2 lg:flex-row gap-12 w-full h-full'>
+            <div className='flex flex-col lg:flex-row gap-12 w-full h-full'>
                 <div>
                     <img className='rounded-3xl w-full' src={ImagemReserva} alt=""/>
                 </div>
-                <div className='pt-12 lg:pt-0 flex flex-col gap-8 lg:gap-5 lg:justify-between border-2'>
+                <div className='pt-12 lg:pt-0 flex flex-col gap-8 lg:gap-5 lg:justify-between'>
                     <h2 className='text-4xl'>Faça já sua reserva!</h2>
                     <p className='text-sm'>Garanta seu lugar neste santuário de paz. Preencha os detalhes abaixo e nossa equipe entrará em contato para confirmar sua estadia inesquecível.</p>
-                    <div className='flex flex-col gap-4 border-2 lg:h-full lg:justify-between'>
+                    <div className='flex flex-col gap-4  lg:h-full lg:justify-between'>
 
-                        <div className='border-2 flex flex-col lg:flex-row justify-baseline gap-4 w-full'>
+                        <div className=' flex flex-col lg:flex-row justify-baseline gap-4 w-full'>
                             <div className='flex flex-col gap-2 w-full'>
                                 <span className='font-medium text-sm'>CHECK-IN</span>
                                 <input className='border-1 font-medium rounded-md h-12 w-full px-3' type="date"/>
