@@ -14,7 +14,7 @@ export default function Gallery() {
 
     const galeria = imagens.map((imagem)=>{
         return (
-            <div className='rounded-3xl overflow-hidden cursor-pointer'>
+            <div className='rounded-3xl overflow-hidden cursor-pointer lg:shrink-0 lg:basis-[calc((100%/3)-1.17rem)]'>
                 <img className='rounded-2xl hover:transform hover:scale-110 transition-transform duration-300' src={imagem} alt="" />
             </div>
         )
@@ -22,11 +22,11 @@ export default function Gallery() {
 
 
     return (
-        <section className="bg-[#e5e7eb] h-full">
-            <div className="flex flex-col  gap-3 items-center pt-25 z-1 relative pb-25">
+        <section className="bg-[#e5e7eb] h-full ">
+            <div className="flex flex-col gap-3 items-center pt-25 z-1 relative pb-25 lg:mx-auto lg:w-3/5">
                 <span className="text-blue-400 font-medium text-xs tracking-widest">VISUALIZE O PARAÍSO</span>
                 <h2 className="text-4xl">Nossa Galeria</h2>
-                <div className="flex flex-col gap-7 px-7 mt-16">
+                <div className="flex flex-col gap-7 px-7 lg:px-0 mt-16 lg:flex-row lg:flex-wrap ">
                     {galeria}
                 </div>
             </div>
