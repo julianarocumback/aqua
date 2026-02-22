@@ -1,6 +1,6 @@
 export default function Testimony() {
     return (
-        <section>
+        <section className="bg-[#f8fafc] h-screen">
 
             
         </section>

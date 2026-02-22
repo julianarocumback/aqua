@@ -22,7 +22,7 @@ export default function Gallery() {
 
 
     return (
-        <section className="bg-[#e5e7eb] h-full ">
+        <section id='gallery' className="bg-[#e5e7eb] h-full scroll-mt-[75px]">
             <div className="flex flex-col gap-3 items-center pt-25 z-1 relative pb-25 lg:mx-auto lg:w-3/5">
                 <span className="text-blue-400 font-medium text-xs tracking-widest">VISUALIZE O PARAÍSO</span>
                 <h2 className="text-4xl">Nossa Galeria</h2>

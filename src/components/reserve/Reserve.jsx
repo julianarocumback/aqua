@@ -1,5 +1,68 @@
+import ImagemReserva from './imagem-reserva.png'
+
 export default function Reserve() {
     return (
-        <section></section>
+        <section id="reserve" className="scroll-mt-[75px] w-full h-full py-25 px-4 lg:mx-auto lg:w-3/5">
+            <div className='flex flex-col border-2 lg:flex-row gap-12 w-full h-full'>
+                <div>
+                    <img className='rounded-3xl w-full' src={ImagemReserva} alt=""/>
+                </div>
+                <div className='pt-12 lg:pt-0 flex flex-col gap-8 lg:gap-5 lg:justify-between border-2'>
+                    <h2 className='text-4xl'>Faça já sua reserva!</h2>
+                    <p className='text-sm'>Garanta seu lugar neste santuário de paz. Preencha os detalhes abaixo e nossa equipe entrará em contato para confirmar sua estadia inesquecível.</p>
+                    <div className='flex flex-col gap-4 border-2 lg:h-full lg:justify-between'>
+
+                        <div className='border-2 flex flex-col lg:flex-row justify-baseline gap-4 w-full'>
+                            <div className='flex flex-col gap-2 w-full'>
+                                <span className='font-medium text-sm'>CHECK-IN</span>
+                                <input className='border-1 font-medium rounded-md h-12 w-full px-3' type="date"/>
+                            </div>
+                            <div className='flex flex-col gap-2 w-full'>
+                                <span className='font-medium text-sm'>CHECK-OUT</span>
+                                <input className='border-1 font-medium rounded-md h-12 w-full px-3' type="date"/>
+                            </div>
+
+
+                        </div>
+
+                        <div className='flex flex-col lg:flex-row gap-4'>
+                            <div className='flex flex-col gap-2 w-full'>
+                                <span className='font-medium text-sm'>HÓSPEDES</span>
+                                <select className='border-1 font-medium rounded-md h-12 w-full px-3'>
+                                    <option value="">1 Pessoa</option>
+                                    <option value="">2 Pessoas</option>
+                                    <option value="">3 Pessoas</option>
+                                    <option value="">4+ Pessoas</option>
+                                </select>
+                            </div>
+                            <div className='flex flex-col gap-2 w-full'>
+                                <span className='font-medium text-sm'>QUARTOS</span>
+                                <select className='border-1 font-medium rounded-md h-12 w-full px-3'>
+                                    <option value="">1 Quarto</option>
+                                    <option value="">2 Quartos</option>
+                                    <option value="">Suíte Master</option>
+                                </select>
+                            </div>
+                            <div className='flex flex-col gap-2 w-full'>
+                                <span className='font-medium text-sm'>TIPO</span>
+                                <select className='border-1 font-medium rounded-md h-12 w-full px-3'>
+                                    <option value="">Econômico</option>
+                                    <option value="">Standard</option>
+                                    <option value="">Luxo</option>
+                                </select>
+                            </div>
+
+
+
+                        </div>
+                        <button className='bg-blue-950 text-amber-50 h-16 w-full rounded-md text-lg font-bold tracking-widest'> RESERVAR AGORA</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
     )
 }

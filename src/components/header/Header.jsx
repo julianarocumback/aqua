@@ -34,10 +34,10 @@ export default function Header() {
                 <div className="lg:hidden text-2xl"><i className="fa-solid fa-bars"></i></div>
                 <div className="hidden lg:block">
                     <div className="flex gap-4 items-center  text-1xl">
-                        <a className={`${logoClass}`} href="">Home</a>
-                        <a className={`${logoClass}`} href="">Atividades</a>
-                        <a className={`${logoClass}`} href="">Galeria</a>
-                        <button className="bg-blue-500 text-amber-50 p-4 rounded-3xl h-5 flex items-center" href="">Reservar</button>
+                        <a className={`${logoClass}`} href="#">Home</a>
+                        <a className={`${logoClass}`} href="#activities">Atividades</a>
+                        <a className={`${logoClass}`} href="#gallery">Galeria</a>
+                        <button className="bg-blue-500 text-amber-50 p-4 rounded-3xl h-5 flex items-center cursor-pointer" href="#reserve">Reservar</button>
                     </div>
                 </div>
             </nav>
