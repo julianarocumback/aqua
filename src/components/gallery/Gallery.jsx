@@ -1,6 +1,6 @@
 export default function Gallery() {
     return (
-        <section>
+        <section className="bg-[#e5e7eb] h-screen">
             
         </section>
     )
