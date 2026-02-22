@@ -15,7 +15,7 @@ export default function Gallery() {
     const galeria = imagens.map((imagem)=>{
         return (
             <div className='rounded-3xl overflow-hidden cursor-pointer'>
-                <img className='rounded-3xl hover:transform hover:scale-110 transition-transform duration-300' src={imagem} alt="" />
+                <img className='rounded-2xl hover:transform hover:scale-110 transition-transform duration-300' src={imagem} alt="" />
             </div>
         )
     })
