@@ -4,6 +4,7 @@ import Activities from './components/activities/Activities'
 import Gallery from './components/gallery/Gallery'
 import Reserve from './components/reserve/Reserve'
 import Testimony from './components/testimony/Testimony'
+import Footer from './components/footer/Footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Gallery/>
       <Reserve/>
       <Testimony/>
+      <Footer/>
     </>
   )
 }
