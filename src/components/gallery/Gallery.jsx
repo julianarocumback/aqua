@@ -26,7 +26,7 @@ export default function Gallery() {
             <div className="flex flex-col  gap-3 items-center pt-25 z-1 relative pb-25">
                 <span className="text-blue-400 font-medium text-xs tracking-widest">VISUALIZE O PARAÍSO</span>
                 <h2 className="text-4xl">Nossa Galeria</h2>
-                <div className="flex flex-col gap-7 px-7">
+                <div className="flex flex-col gap-7 px-7 mt-16">
                     {galeria}
                 </div>
             </div>
