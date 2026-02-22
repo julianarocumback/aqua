@@ -34,9 +34,9 @@ export default function Activities() {
 
     let lista = activities.map((item) =>{
         return(
-            <div className='w-full h-full'>
+            <div className='lg:flex gap-12 lg:flex-row lg:even:flex-row-reverse'>
+                <img src={item.imagem} alt="" className='rounded-2xl w-full lg:w-1/2'/>
                 <div>
-                    <img src={item.imagem} alt="" className='rounded-2xl w-full'/>
                     <h3 className='text-3xl mt-12'>{item.titulo}</h3>
                     <h1 className='mt-5'>{item.descricao}</h1>
                     <div className='flex flex-col gap-2 mt-7'>
@@ -69,11 +69,11 @@ export default function Activities() {
     return (
         <section id="activities" className="h-full scroll-mt-[75px] lg:mt-[-75px] pt-25 z-1 relative lg:mx-auto lg:w-3/5">
             <div className="flex flex-col  gap-3 items-center">
-                <span className="text-blue-400 font-medium text-xs tracking-widest">EXPERIÊNCIAS</span>
+                <span className="text-blue-400 font-medium text-xs tracking-widest lg:pt-16">EXPERIÊNCIAS</span>
                 <h2 className="text-4xl">Nossas Atividades</h2>
                 <div className='mt-3 mb-4 h-1 bg-blue-400 w-16'></div>
             </div>
-            <div className='px-4 flex flex-col gap-8 mt-16 mb-25'>{lista}</div>
+            <div className='px-4 flex flex-col gap-8 lg:gap-30 mt-16 mb-25'>{lista}</div>
         </section>
     )
 }
