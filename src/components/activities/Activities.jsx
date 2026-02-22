@@ -67,7 +67,7 @@ export default function Activities() {
 
 
     return (
-        <section id="activities" className="h-full scroll-mt-[75px] lg:mt-[-75px] pt-25 z-1 relative">
+        <section id="activities" className="h-full scroll-mt-[75px] lg:mt-[-75px] pt-25 z-1 relative lg:mx-auto lg:w-3/5">
             <div className="flex flex-col  gap-3 items-center">
                 <span className="text-blue-400 font-medium text-xs tracking-widest">EXPERIÊNCIAS</span>
                 <h2 className="text-4xl">Nossas Atividades</h2>
