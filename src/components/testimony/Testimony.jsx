@@ -9,7 +9,7 @@ export default function Testimony() {
                 <div className="h-1 w-16 bg-blue-500"></div>
 
                 <div className="flex flex-col gap-8 lg:flex-row lg:gap-12">
-                    <div className='border-2 flex flex-col items-center text-center rounded-2xl py-16 gap-4'>
+                    <div className='border-2 flex flex-col items-center text-center rounded-2xl py-16 gap-4 bg-white shadow-2xs border-[#f1f5f9]'>
                         <div className='h-16 w-16 rounded-full overflow-hidden'>
                             <img className='' src={Mariana} alt="" />
                         </div>
@@ -28,7 +28,7 @@ export default function Testimony() {
                         </div>
                     </div>
 
-                    <div className='border-2 flex flex-col items-center text-center rounded-2xl py-16 gap-4'>
+                    <div className='border-2 flex flex-col items-center text-center rounded-2xl py-16 gap-4 bg-white  shadow-2xs border-[#f1f5f9]'>
                         <div className='h-16 w-16 rounded-full overflow-hidden'>
                             <img className='' src={Ricardo} alt="" />
                         </div>
