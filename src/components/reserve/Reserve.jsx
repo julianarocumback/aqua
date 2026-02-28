@@ -15,7 +15,7 @@ export default function Reserve() {
                         <div className=' flex flex-col lg:flex-row justify-baseline gap-4 w-full'>
                             <div className='flex flex-col gap-2 w-full'>
                                 <span className='font-medium text-sm text-[#94a3b8]'>CHECK-IN</span>
-                                <input className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0]' type="date" placeholder='dd/mm/aaaa'/>
+                                <input className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0]' type="date" value='dd/mm/aaaa'/>
                             </div>
                             <div className='flex flex-col gap-2 w-full'>
                                 <span className='font-medium text-sm text-[#94a3b8]'>CHECK-OUT</span>
