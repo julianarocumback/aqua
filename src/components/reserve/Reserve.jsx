@@ -3,7 +3,7 @@ import ImagemReserva from './imagem-reserva.png'
 export default function Reserve() {
     return (
         <section id="reserve" className="scroll-mt-[75px] w-full h-full py-25 px-4 lg:mx-auto lg:w-3/5">
-            <div className='flex flex-col lg:flex-row gap-12 w-full h-full'>
+            <div className='flex flex-col lg:flex-row lg:gap-12 w-full h-full'>
                 <div>
                     <img className='rounded-3xl w-full' src={ImagemReserva} alt=""/>
                 </div>
@@ -55,7 +55,7 @@ export default function Reserve() {
 
 
                         </div>
-                        <button className='bg-[#0f172a] text-amber-50 h-16 w-full rounded-md text-lg font-bold tracking-widest cursor-pointer hover:bg-[#0891b2] transition-all transition-duration-150 transition-timing-function-ease-in-out'> RESERVAR AGORA</button>
+                        <button className='bg-[#0f172a] text-amber-50 h-16 w-full rounded-md text-lg font-bold tracking-widest cursor-pointer hover:bg-[#0891b2] transition-all transition-duration-150 transition-timing-function-ease-in-out mt-2'> RESERVAR AGORA</button>
                     </div>
                 </div>
 

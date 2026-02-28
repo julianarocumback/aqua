@@ -67,13 +67,13 @@ export default function Activities() {
 
 
     return (
-        <section id="activities" className="h-full scroll-mt-[75px] pt-25 z-1 relative lg:mx-auto lg:w-3/5">
+        <section id="activities" className="h-full scroll-mt-[74px] py-24 z-1 relative lg:mx-auto lg:w-3/5 px-6">
             <div className="flex flex-col  gap-3 items-center">
                 <span className="text-blue-400 font-medium text-xs tracking-widest">EXPERIÊNCIAS</span>
                 <h2 className="text-4xl">Nossas Atividades</h2>
                 <div className='mt-3 mb-4 h-1 bg-blue-400 w-16'></div>
             </div>
-            <div className='px-4 flex flex-col gap-8 lg:gap-30 mt-16 mb-25'>{lista}</div>
+            <div className='px-4 flex flex-col gap-8 lg:gap-30 mt-16'>{lista}</div>
         </section>
     )
 }
