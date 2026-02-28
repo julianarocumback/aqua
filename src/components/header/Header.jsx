@@ -51,7 +51,7 @@ export default function Header() {
                         <div className="text-black"><span className="text-blue-500"><i className="fa-solid fa-image"></i></span> Galeria</div>
                         <div className="h-0.5 w-full bg-black/30 rounded-b-full"></div>
                         <div className="text-white bg-blue-500 rounded-3xl px-2 py-2">Reservar</div>
-                        <div className="text-black absolute right-9 text-2xl top-6"><i class="fa-solid fa-xmark"></i></div>
+                        <div className="text-black absolute right-10 text-2xl top-6"><i class="fa-solid fa-xmark"></i></div>
                         
                     </div>
                 </div>
