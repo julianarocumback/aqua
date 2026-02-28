@@ -46,11 +46,22 @@ export default function Header() {
                 <div className="lg:hidden text-2xl relative cursor-pointer" onClick={handleToggle}><i className="fa-solid fa-bars"></i></div>
                 <div className={`absolute ${toggle} h-screen w-3/5 right-0 top-0 border-2 bg-white z-50 px-6 py-20 gap-6 lg:hidden transition-all duration-300 border-none shadow-md`}>
                     <div className="flex flex-col gap-6" onClick={handleToggle}>
-                        <div className="text-black"><span className="text-blue-500"><i className="fa-solid fa-house"></i></span> Home</div>
-                        <div className="text-black"><span className="text-blue-500"><i className="fa-solid fa-sailboat"></i></span> Atividades</div>
-                        <div className="text-black"><span className="text-blue-500"><i className="fa-solid fa-image"></i></span> Galeria</div>
+                        <a href="#">
+                            <div className="text-black"><span className="text-blue-500"><i className="fa-solid fa-house"></i></span> Home</div>
+                        </a>
+                            
+                        <a href="#activities">
+                            <div className="text-black"><span className="text-blue-500"><i className="fa-solid fa-sailboat"></i></span> Atividades</div>
+                        </a>
+                        
+                        <a href="#gallery">
+                            <div className="text-black"><span className="text-blue-500"><i className="fa-solid fa-image"></i></span> Galeria</div>
+                        </a>
+
                         <div className="h-0.5 w-full bg-black/30 rounded-b-full"></div>
-                        <div className="text-white bg-blue-500 rounded-3xl px-2 py-2">Reservar</div>
+
+                        <a href="#reserve"><div className="text-white bg-blue-500 rounded-3xl px-2 py-2">Reservar</div></a>
+                    
                         <div className="text-black absolute right-10 text-2xl top-6"><i class="fa-solid fa-xmark"></i></div>
                         
                     </div>
