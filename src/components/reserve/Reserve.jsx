@@ -15,11 +15,11 @@ export default function Reserve() {
                         <div className=' flex flex-col lg:flex-row justify-baseline gap-4 w-full'>
                             <div className='flex flex-col gap-2 w-full'>
                                 <span className='font-medium text-sm text-[#94a3b8]'>CHECK-IN</span>
-                                <input className='border-1 font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0]' type="date"/>
+                                <input className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0]' type="date" placeholder='dd/mm/aaaa'/>
                             </div>
                             <div className='flex flex-col gap-2 w-full'>
                                 <span className='font-medium text-sm text-[#94a3b8]'>CHECK-OUT</span>
-                                <input className='border-1 font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0]' type="date"/>
+                                <input className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0]' type="date"/>
                             </div>
 
 
@@ -28,7 +28,7 @@ export default function Reserve() {
                         <div className='flex flex-col lg:flex-row gap-4'>
                             <div className='flex flex-col gap-2 w-full'>
                                 <span className='font-medium text-sm text-[#94a3b8]'>HÓSPEDES</span>
-                                <select className='border-1 font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0]'>
+                                <select className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0]'>
                                     <option value="">1 Pessoa</option>
                                     <option value="">2 Pessoas</option>
                                     <option value="">3 Pessoas</option>
@@ -37,7 +37,7 @@ export default function Reserve() {
                             </div>
                             <div className='flex flex-col gap-2 w-full'>
                                 <span className='font-medium text-sm text-[#94a3b8]'>QUARTOS</span>
-                                <select className='border-1 font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0]'>
+                                <select className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0]'>
                                     <option value="">1 Quarto</option>
                                     <option value="">2 Quartos</option>
                                     <option value="">Suíte Master</option>
@@ -45,7 +45,7 @@ export default function Reserve() {
                             </div>
                             <div className='flex flex-col gap-2 w-full'>
                                 <span className='font-medium text-sm text-[#94a3b8]'>TIPO</span>
-                                <select className='border-1 font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0]'>
+                                <select className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0]'>
                                     <option value="">Econômico</option>
                                     <option selected value="">Standard</option>
                                     <option value="">Luxo</option>
