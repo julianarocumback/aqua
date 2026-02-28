@@ -73,7 +73,7 @@ export default function Activities() {
                 <h2 className="text-4xl">Nossas Atividades</h2>
                 <div className='mt-3 mb-4 h-1 bg-blue-400 w-16'></div>
             </div>
-            <div className='px-4 flex flex-col gap-8 lg:gap-30 mt-16'>{lista}</div>
+            <div className='px-4 flex flex-col gap-20 lg:gap-30 mt-16'>{lista}</div>
         </section>
     )
 }
