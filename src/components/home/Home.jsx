@@ -8,7 +8,7 @@ export default function Home() {
                     <img src={Background} alt="" className='h-full w-full object-cover' />
                 </div>
                 <div className='bg-black/20 h-full w-full absolute'></div>
-                <div className='flex flex-col justify-center items-center self-center relative h-full w-3/5 lg:w-2/5 gap-6 text-white'>
+                <div className='flex flex-col justify-center items-center self-center relative h-full sm:w-3/5 lg:w-2/5 gap-6 text-white'>
                     <h1 className='relative text-5xl sm:text-5xl lg:text-7xl font-semibold'>Bem-vindo!</h1>   
                     <h2 className=' text-xl font- lg:text-3xl text-center'>Descubra um refúgio perfeito onde conforto, natureza e experiências memoráveis se encontram.</h2>
                     <a href="#activities" className='cursor-pointer'>
