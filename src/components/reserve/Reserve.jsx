@@ -16,7 +16,12 @@ export default function Reserve() {
                             <div className='flex flex-col gap-2 w-full'>
                                 <span className='font-medium text-sm text-[#94a3b8]'>CHECK-IN</span>
                                 <div className='flex relative'>
-                                    <input placeholder='dd/mm/aaaa' className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0] before:content-[attr(placeholder)] before-absolute before:left-3 invalid:text-transparent focus:before:content-none sm:before:content-none [&::-webkit-calendar-picker-indicator]:hidden [&::-webkit-inner-spin-button]:appearance-none' type="date"/>
+                                    <input placeholder='dd/mm/aaaa' className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0] before:content-[attr(placeholder)] before-absolute before:left-3 invalid:text-transparent focus:before:content-none sm:before:content-none 
+                                    
+                                    [&::-webkit-calendar-picker-indicator]:hidden 
+           [&::-webkit-calendar-picker-indicator]:appearance-none
+           [&::-webkit-inner-spin-button]:appearance-none
+           [&::-webkit-clear-button]:hidden' type="date"/>
                                     <div className='absolute right-2 top-3 pointer-events-none'>
                                         <i class="fa-regular fa-calendar-days"></i>
                                     </div>
