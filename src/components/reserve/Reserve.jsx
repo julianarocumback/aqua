@@ -15,11 +15,22 @@ export default function Reserve() {
                         <div className=' flex flex-col lg:flex-row justify-baseline gap-4 w-full'>
                             <div className='flex flex-col gap-2 w-full'>
                                 <span className='font-medium text-sm text-[#94a3b8]'>CHECK-IN</span>
-                                <input placeholder='dd/mm/aaaa' className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0] before:content-[attr(placeholder)] before-absolute before:left-3 invalid:text-transparent focus:before:content-none sm:before:content-none' type="date"/>
+                                <div className='flex relative'>
+                                    <input placeholder='dd/mm/aaaa' className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0] before:content-[attr(placeholder)] before-absolute before:left-3 invalid:text-transparent focus:before:content-none sm:before:content-none [&::-webkit-calendar-picker-indicator]:hidden' type="date"/>
+                                    <div className='absolute right-2 top-3 pointer-events-none'>
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                    </div>
+                                </div>
                             </div>
                             <div className='flex flex-col gap-2 w-full'>
                                 <span className='font-medium text-sm text-[#94a3b8]'>CHECK-OUT</span>
-                                <input placeholder='dd/mm/aaaa' className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0] before:content-[attr(placeholder)] before-absolute before:left-3 invalid:text-transparent focus:before:content-none sm:before:content-none' type="date"/>
+
+                                <div className='flex relative'>
+                                    <input placeholder='dd/mm/aaaa' className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0] before:content-[attr(placeholder)] before-absolute before:left-3 invalid:text-transparent focus:before:content-none sm:before:content-none [&::-webkit-calendar-picker-indicator]:hidden' type="date"/>
+                                    <div className='absolute right-2 top-3 pointer-events-none'>
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                    </div>
+                                </div>
                             </div>
 
 
@@ -28,20 +39,31 @@ export default function Reserve() {
                         <div className='flex flex-col lg:flex-row gap-4'>
                             <div className='flex flex-col gap-2 w-full'>
                                 <span className='font-medium text-sm text-[#94a3b8]'>HÓSPEDES</span>
-                                <select className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0]'>
-                                    <option value="">1 Pessoa</option>
-                                    <option value="">2 Pessoas</option>
-                                    <option value="">3 Pessoas</option>
-                                    <option value="">4+ Pessoas</option>
-                                </select>
+                                <div className='flex relative'>
+                                    <select className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0] appearance-none'>
+                                        <option value="">1 Pessoa</option>
+                                        <option value="">2 Pessoas</option>
+                                        <option value="">3 Pessoas</option>
+                                        <option value="">4+ Pessoas</option>
+                                    </select>
+                                    <div className='absolute right-2 top-3 pointer-events-none'>
+                                        <i class="fa-solid fa-caret-down"></i>
+                                    </div>
+
+                                </div>
                             </div>
                             <div className='flex flex-col gap-2 w-full'>
                                 <span className='font-medium text-sm text-[#94a3b8]'>QUARTOS</span>
-                                <select className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0]'>
-                                    <option value="">1 Quarto</option>
-                                    <option value="">2 Quartos</option>
-                                    <option value="">Suíte Master</option>
-                                </select>
+                                <div className='flex relative'>
+                                    <select className='border font-medium rounded-md h-12 w-full px-3 bg-[#f8fafc] border-[#e2e8f0] appearance-none'>
+                                        <option value="">1 Quarto</option>
+                                        <option value="">2 Quartos</option>
+                                        <option value="">Suíte Master</option>
+                                    </select>
+                                    <div className='absolute right-2 top-3 pointer-events-none'>
+                                        <i class="fa-solid fa-caret-down"></i>
+                                    </div>
+                                </div>
                             </div>
                             <div className='flex flex-col gap-2 w-full'>
                                 <span className='font-medium text-sm text-[#94a3b8]'>TIPO</span>
@@ -53,7 +75,6 @@ export default function Reserve() {
                                     </select>
                                     <div className='absolute right-2 top-3 pointer-events-none'>
                                         <i class="fa-solid fa-caret-down"></i>
-
                                     </div>
                                 </div>
                             </div>
