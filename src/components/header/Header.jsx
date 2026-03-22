@@ -60,7 +60,7 @@ export default function Header() {
 
                         <div className="h-0.5 w-full bg-black/30 rounded-full"></div>
 
-                        <a href="#reserve"><div className="text-white bg-blue-500 px-2 py-2 rounded-md text-center">Reservar</div></a>
+                        <a href="#reserve"><button className="text-white bg-blue-500 px-2 py-2 rounded-md text-center">Reservar</button></a>
                     
                         <div className="text-black absolute right-10 text-2xl top-6"><i class="fa-solid fa-xmark"></i></div>
                         
@@ -75,7 +75,7 @@ export default function Header() {
                         <a className={`${logoClass}`} href="#">Home</a>
                         <a className={`${logoClass}`} href="#activities">Atividades</a>
                         <a className={`${logoClass}`} href="#gallery">Galeria</a>
-                        <button className="bg-blue-500 text-amber-50 p-4 rounded-3xl h-5 flex items-center cursor-pointer" href="#reserve">Reservar</button>
+                        <a href="#reserve"><button className="bg-blue-500 text-amber-50 p-4 rounded-3xl h-5 flex items-center cursor-pointer">Reservar</button></a>
                     </div>
                 </div>
             </nav>
