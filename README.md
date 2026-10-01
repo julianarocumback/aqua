@@ -1,18 +1,58 @@
-# React + Vite
+# 🌊 Aqua - Resort & Experiências Exclusivas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **Aqua** é um site institucional responsivo e moderno desenvolvido para apresentar um resort de luxo à beira-mar. O projeto foi construído com foco em design elegante, excelente experiência do utilizador (UX) e interface intuitiva (UI).
 
-Currently, two official plugins are available:
+## 🔗 Link do projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[🌐 Visualizar site](https://aqua.julianarocumback.dev/)
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 📸 Demonstração do Projeto
 
-Note: This will impact Vite dev & build performances.
+### 🏞️ Início (Hero Section)
+Imagem panorâmica com vista aérea do resort Aqua ao pôr do sol, cercado por montanhas, mar com barcos ancorados e iluminação noturna das piscinas e acomodações, com o texto "Bem-vindo! Descubra um refúgio perfeito onde conforto, natureza e experiências memoráveis se encontram."
 
-## Expanding the ESLint configuration
+![Hero Section](https://gajfmazozjutlxqfvlxl.supabase.co/storage/v1/object/public/aqua/aqua-hero.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### ⛵ Atividades & Experiências
+Seção "Nossas Atividades" destacando o "Passeio de barco", acompanhado por uma fotografia de um veleiro navegando em águas cristalinas com ilhas ao fundo e um texto descritivo dos diferenciais do passeio.
+![Nossas Atividades](https://gajfmazozjutlxqfvlxl.supabase.co/storage/v1/object/public/aqua/aqua-activities.png)
+
+---
+
+### 🖼️ Galeria de Fotos
+Seção "Nossa Galeria" com o subtítulo "Visualize o Paraíso", apresentando um grid com diversas fotos das instalações do resort, incluindo suítes de luxo, restaurantes, piscinas com borda infinita, área verde e chalés.
+![Nossa Galeria](https://gajfmazozjutlxqfvlxl.supabase.co/storage/v1/object/public/aqua/aqua-gallery.png)
+
+---
+
+### 📅 Formulário de Reserva
+Seção "Faça já sua reserva!" exibindo uma foto da fachada praiana do resort ao pôr do sol ao lado de um formulário interativo com campos para Check-in, Check-out, número de Hóspedes, Quartos e Tipo de acomodação.
+![Faça sua Reserva](https://gajfmazozjutlxqfvlxl.supabase.co/storage/v1/object/public/aqua/aqua-booking.png)
+
+---
+
+### ⭐ Depoimentos de Hóspedes
+Seção de "Depoimentos" composta por três cards de avaliações de hóspedes com 5 estrelas, foto de perfil, comentários sobre o atendimento, localização, passeios e café da manhã, acompanhados pelo nome do cliente.
+![Depoimentos](https://gajfmazozjutlxqfvlxl.supabase.co/storage/v1/object/public/aqua/aqua-testimonials.png)
+
+---
+
+## ✨ Destaques & Funcionalidades
+
+- **Navegação Fluida:** Menu de navegação superior com links diretos para cada secção (*Home*, *Atividades*, *Galeria* e botão *Reservar*).
+- **Apresentação de Serviços:** Seções dedicadas a passeios e experiências (como passeios de barco e jet ski) com lista de diferenciais (roteiros personalizados, serviço de bordo gourmet, etc.).
+- **Galeria em Grid:** Organização visual e limpa das instalações, acomodações e áreas de lazer do resort.
+- **Formulário de Pré-Reserva:** Interface completa para simulação e solicitação de reserva (*Check-in*, *Check-out*, quantidade de hóspedes, quartos e tipo de acomodação).
+- **Prova Social:** Seção de depoimentos de hóspedes para transmitir credibilidade e reforçar a qualidade do serviço.
+- **Design Responsivo:** Layout adaptado para proporcionar uma excelente navegação em diferentes tamanhos de tela (desktop, tablet e mobile).
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React**
+- **Tailwind**
